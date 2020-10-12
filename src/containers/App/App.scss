@@ -1,0 +1,37 @@
+@import './variables.scss';
+
+@font-face {
+  font-family: WorkSans;
+  src: url('./WorkSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: WorkSans;
+  src: url('./WorkSans-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Avalon;
+  src: url('./Avalon-Bold.ttf');
+  font-weight: bold;
+}
+
+.App {
+  font-family: 'WorkSans';
+  color: $colorBlack;
+}
+
+h1 {
+  font-family: 'Avalon';
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 0.4px;
+}
+
+.clearer {
+  clear: both;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}

@@ -1,0 +1,26 @@
+.IncDec {
+  display: flex;
+  flex-direction: row;
+  .act {
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+    border: 1px solid #dcdcdc;
+    background: url('./ico_dec.png') no-repeat 50% 50%;
+    &:hover {
+      opacity: 0.8;
+    }
+    &:disabled {
+      background-color: #dcdcdc;
+    }
+  }
+  .inc {
+    background: url('./ico_inc.png') no-repeat 50% 50%;
+  }
+  .val {
+    width: 60px;
+    line-height: 39px;
+    text-align: center;
+    color: #7d7d7d;
+  }
+}

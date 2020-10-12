@@ -1,0 +1,67 @@
+@import '../App/variables.scss';
+
+.home {
+  margin-top: 53px;
+  width: 1200px;
+  .header {
+    text-align: center;
+    width: 770px;
+    margin: 0 auto;
+
+    h1 {
+      margin-top: 77px;
+      span {
+        color: $colorYellow;
+      }
+    }
+
+    p {
+      margin-top: 46px;
+      font-size: 24px;
+      line-height: 1.79;
+      font-weight: bold;
+      letter-spacing: 0;
+    }
+  }
+  .contentBg {
+    margin-top: 236px;
+    background-color: $colorYellow;
+    .content {
+      background-color: #fff;
+      box-shadow: 0 25px 54px 0 rgba(0, 0, 0, 0.11);
+      margin-left: 103px;
+      padding: 24px 66px 0 52px;
+      position: relative;
+      top: -146px;
+      .total {
+        height: 152px;
+        line-height: 152px;
+        text-align: right;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: Avalon;
+      }
+    }
+  }
+
+  .footerBg {
+    background-color: #fff;
+    margin-top: -70px;
+    padding-top: 70px;
+    .footer {
+      height: 691px;
+      background: #000 url('./footer_bg.png') no-repeat 50% 50%;
+      p {
+        width: 710px;
+        margin: 0 auto;
+        padding-top: 222px;
+        font-size: 38px;
+        line-height: 52px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        font-family: Avalon;
+      }
+    }
+  }
+}

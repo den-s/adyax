@@ -1,0 +1,70 @@
+.CartItem {
+  display: flex;
+  flex-direction: 'row';
+  height: 190px;
+  padding: 35px 24px 32px 27px;
+  border-bottom: 1px solid #ececec; }
+  .CartItem .img {
+    display: flex;
+    width: 131px;
+    height: 131px;
+    margin-top: 2px;
+    border-radius: 10px;
+    box-shadow: 0 11px 20px 0 rgba(0, 0, 0, 0.08);
+    justify-content: center;
+    overflow: hidden; }
+    .CartItem .img:hover {
+      opacity: 0.8; }
+  .CartItem .contentCI {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #ececec;
+    padding-left: 37px; }
+    .CartItem .contentCI p {
+      display: flex; }
+    .CartItem .contentCI .title {
+      font-size: 20px;
+      font-weight: bold; }
+    .CartItem .contentCI .description {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #7d7d7d;
+      flex-grow: 0.3;
+      padding-right: 50px; }
+    .CartItem .contentCI .Dropdown-control {
+      width: 242px;
+      height: 51px;
+      cursor: pointer; }
+      .CartItem .contentCI .Dropdown-control .Dropdown-placeholder {
+        line-height: 33px;
+        font-size: 14px;
+        padding-left: 10px;
+        color: #4e4e4e; }
+      .CartItem .contentCI .Dropdown-control .Dropdown-arrow {
+        top: 20px;
+        right: 20px;
+        border-width: 12px 8px 0; }
+  .CartItem .actions {
+    display: flex;
+    width: 293px;
+    flex-direction: column; }
+    .CartItem .actions .remove {
+      align-self: flex-end;
+      position: relative;
+      bottom: 4px;
+      cursor: pointer; }
+      .CartItem .actions .remove:hover {
+        opacity: 0.8; }
+    .CartItem .actions .counter {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 39px 0 0 46px; }
+      .CartItem .actions .counter .amount {
+        font-size: 20px;
+        line-height: 39px;
+        font-family: Avalon;
+        font-weight: bold; }
